@@ -1,0 +1,16 @@
+:root{
+    --gold:#F4D03F;
+    --green: #008000;
+    --white: #FFFFFF;
+    --orange: #FFA500;
+    --purple:#800080;
+    --yellow: #FFFF00;
+    --black: #000000;
+    --darkblue: #00008B;
+    --lightblue: #ADD8E6;
+}
+body{
+    background:linear-gradient(to bottom, var(--gold), var(--purple));
+    height: 100vh;
+    font-family: 'Mystery Quest', cursiva;
+}
