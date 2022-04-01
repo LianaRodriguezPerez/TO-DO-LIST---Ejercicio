@@ -7,8 +7,8 @@
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? family= Mystery+Quest & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ea85b36b18.js" crossorigin="anonymous"></script>
     <title> TO DO LIST </title>
 </head>
 <body>
@@ -19,23 +19,30 @@
             <h1>Hola, Liana Rodriguez</h1> 
             <span>Vamos a cumplir tus metas </span>
         </div> <!-- div es un container o una caja donde se va a tener elementos -->
+
         <div class="agregar-tarea">
             <input type="text" id="input" placeholder="agregar una tarea"> <!-- input es un campo y ese campo se puede editar, id para que lo identifique js, placeholder, texto que aparece dentro del campo de input para identificar que tipo de datos debe incluir en ese campo-->
-            <i id="enter"class="fa-solid fa-square-caret-right"></i>
+            <i id="boton-enter"class="fa-solid fa-square-caret-right"></i>
         </div>
+
         <div class="seccion-tarea">
             <h3> Estas son tus tareas pendientes </h3>
             <ul id="lista">
-                <li>
+                <!-- <li id="elemento">
                     <i class=" far fa-circle co" data="realizado" id="0"></i>
-                    <p class="text">Hacer tarea de español</p>
+                    <p class="text">Hacer tarea de matematicas </p>
                     <i class="fas fa-trash de" data="eliminado" id="0"></i>
-                </li>
+                </li>  -->
+                <!-- <li id="elemento">
+                    <i class=" far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Lavar los trastes</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                </li>  -->
             </ul>
 
         </div>
     </div>
 
-<scrip src="script.js"></scrip>
+<script src="script.js"></script>
 </body>
 </html>
